@@ -92,7 +92,7 @@ main {
 .stats-summary:hover .amount-onhover {
     visibility: visible;
 }
-.amount-onhover h1 {
+.amount-onhover p {
     font-weight: 700;
     font-size: 30px;
     color: var(--very-dark-blue);
@@ -105,11 +105,11 @@ main {
     top: 4px;
     left: 8px;
 }
-.stats-summary p {
+.stats-summary h1 {
     color: var(--pale-blue);
     font-weight: 500;
 }
-.stats-summary p span {
+.stats-summary h1 span {
     font-weight: 700;
 }
 .process-bar {
